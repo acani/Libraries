@@ -1,10 +1,10 @@
 # Libraries
 
-Instructions on how to add a Git repository (named RepositoryName) to your Xcode project
+Instructions on how to add a Git repository (named `RepositoryName`) to your Xcode project
 
 1. Download
 
-    From the root directory of your project's Git repository, run:
+    From the root directory of your project's main Git repository, run:
 
         git submodule add git@github.com:acani/RepositoryName.git Libraries/RepositoryName
 
@@ -20,13 +20,10 @@ Instructions on how to add a Git repository (named RepositoryName) to your Xcode
 
 3. Use
 
-    See RepositoryName's `README.md` file for usage information.
+    See `RepositoryName/README.md` for usage information.
 
 4. Update
 
-    Run `git pull` from `Libraries/RepositoryName` routinely.
-
-    Then, if any files have been added, moved, or removed:
-
-        * Update your Xcode project's references to those files accordingly
-        * Add any new Swift files to your target
+    Run `git pull` from `Libraries/RepositoryName`.
+    
+    If that adds, moves, or removes any files, update your Xcode project accordingly.
