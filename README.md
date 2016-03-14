@@ -6,7 +6,7 @@ Instructions on how to add a Git repository (named `RepositoryName`) to your Xco
 
     From the root directory of your project's main Git repository, run:
 
-        git submodule add git@github.com:acani/RepositoryName.git Libraries/RepositoryName
+        git submodule add git://github.com/acani/RepositoryName.git Libraries/RepositoryName
 
 2. Install
 
